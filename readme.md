@@ -26,4 +26,4 @@ WebSocket API: `wss://stream.binance.com/stream?streams=!miniTicker@arr`
 
 ### e2e test example
 
-[e2e.test.tsx](/client/src/323.test.tsx)
+[e2e.test.tsx](/client/src/e2e.test.tsx)
