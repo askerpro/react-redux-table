@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Coins api response schema",
+  "type": "object",
+  "definitions": {
+    "coin": {
+      "type": "object",
+      "title": "coin data schema",
+      "properties": {
+        "s": {
+          "type": "string",
+          "description": "alias name"
+        },
+        "b": {
+          "type": "string",
+          "description": "base asset"
+        },
+        "q": {
+          "type": "string",
+          "description": "quote asset"
+        },
+
+        "o": {
+          "type": "number",
+          "description": "open price"
+        },
+        "h": {
+          "type": "number",
+          "description": "high price"
+        },
+        "l": {
+          "type": "number",
+          "description": "low price"
+        },
+        "c": {
+          "type": "number",
+          "description": "latest price"
+        },
+        "pm": {
+          "type": "string",
+          "description": "parent market"
+        },
+        "pn": {
+          "type": "string",
+          "description": "category of the parent market"
+        }
+      }
+    }
+  },
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/coin" }
+    }
+  }
+}
