@@ -11,12 +11,10 @@
 `webpack`
 `express`
 
-## Demo
+## Demo 
 
-https://react-redux-table.herokuapp.com/
+https://react-redux-table.herokuapp.com/ (have to wait for 1 min, while server is getting awake on response)
 
-Rest API: `https://www.binance.com/exchange-api/v1/public/asset-service/product/get-products`
-WebSocket API: `wss://stream.binance.com/stream?streams=!miniTicker@arr`
 
 ### To run local:
 
