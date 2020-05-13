@@ -13,7 +13,7 @@
 
 ## Demo 
 
-https://react-redux-table.herokuapp.com/ (have to wait for 1 min, while server is getting awake on response)
+https://react-redux-table.herokuapp.com/ (have to wait for 1 min, while server is getting awake on request)
 
 
 ### To run local:
